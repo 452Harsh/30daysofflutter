@@ -12,7 +12,7 @@ class Myapp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,
       
-      theme: ThemeData(primarySwatch: Colors.green),
+      theme: ThemeData(primarySwatch: Colors.blue),
       darkTheme: ThemeData(brightness: Brightness.dark,
       ),
       //initialRoute: "/home",
