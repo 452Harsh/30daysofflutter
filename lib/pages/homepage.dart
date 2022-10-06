@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/drawer.dart';
 
+// day10 we learnt about constraint
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class HomePage extends StatelessWidget {
           child: Text("Welcome to my harsh app  $days $name $temp $day "),
         ),
       ),
-      drawer : MyDrawer(),
+      drawer: MyDrawer(),
     );
   }
 }
